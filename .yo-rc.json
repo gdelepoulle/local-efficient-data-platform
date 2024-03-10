@@ -1,0 +1,16 @@
+{
+  "generator-sicarator": {
+    "promptValues": {
+      "authorName": "Guillaume Delepoulle",
+      "authorEmail": "guillaume.delepoulle@sicara.com",
+      "ci": ".github",
+      "includeApi": false,
+      "includeDvc": false,
+      "includeStreamlit": false,
+      "includeHelloWorld": true
+    },
+    "projectName": "Local efficient Data Platform",
+    "projectSlug": "local-efficient-data-platform",
+    "projectDescription": "A data platform running with the less infrastructure as possible."
+  }
+}
