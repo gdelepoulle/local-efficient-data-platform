@@ -6,6 +6,11 @@ authors = ["Guillaume Delepoulle <guillaume.delepoulle@sicara.com>"]
 
 [tool.poetry.dependencies]
 python = "3.11.6"
+duckdb = "^0.10.0"
+dlt = "^0.4.6"
+pandas = "^2.2.1"
+streamlit = "^1.32.0"
+types-requests = "^2.31.0.20240310"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.2"
@@ -66,7 +71,12 @@ ignore = [
     "PT011", # "pytest.raises() should specify expected exception"
     # -> would imply to update tests every time you update exception message
     "SIM102", # "Use a single `if` statement instead of nested `if` statements"
-    # -> too restrictive
+    # -> too restrictive,
+    "D100", # "Missing docstring in public module"
+    "D101", # "Missing docstring in public class"
+    "D102", # "Missing docstring in public method"
+    "D103", # "Missing docstring in public function"
+    "D104", # "Missing docstring in public package"
 ]
 
 [tool.ruff.pydocstyle]
