@@ -10,7 +10,8 @@ duckdb = "^0.10.0"
 dlt = "^0.4.6"
 pandas = "^2.2.1"
 streamlit = "^1.32.0"
-types-requests = "^2.31.0.20240310"
+dbt-core = "1.7.9"
+dbt-duckdb = "^1.7.3"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.2"
