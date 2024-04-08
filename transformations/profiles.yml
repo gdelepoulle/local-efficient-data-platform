@@ -1,0 +1,8 @@
+transformations:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'data/database_name.duckdb'
+      extensions:
+        - parquet

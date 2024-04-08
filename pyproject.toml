@@ -12,6 +12,7 @@ pandas = "^2.2.1"
 streamlit = "^1.32.0"
 dbt-core = "1.7.9"
 dbt-duckdb = "^1.7.3"
+python-dotenv = "^1.0.1"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.2"
