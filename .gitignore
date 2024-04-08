@@ -20,3 +20,9 @@ __pycache__/
 
 # environment
 .env
+
+# data
+*.duckdb
+
+# logs
+logs/
